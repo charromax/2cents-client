@@ -20,7 +20,7 @@ const authLink = setContext((_, { headers, ...context }) => {
 	};
 });
 
-const httpLink = createHttpLink({ uri: 'http://localhost:5000' });
+const httpLink = createHttpLink({ uri: 'https://ur2cents.herokuapp.com/' });
 const link = ApolloLink.from([authLink, httpLink]);
 const client = new ApolloClient({
 	link: link,
