@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import gql from 'graphql-tag';
-import { useMutation, InMemoryCache } from '@apollo/client';
+import { useMutation } from '@apollo/client';
 import { Button, Confirm, Icon } from 'semantic-ui-react';
 import { FETCH_ALL_POSTS, FETCH_POST, DELETE_POST, DELETE_COMMENT } from '../utils/graphql-queries';
 

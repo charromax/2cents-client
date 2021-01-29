@@ -1,5 +1,4 @@
 import { FETCH_ALL_POSTS, CREATE_POST } from '../utils/graphql-queries';
-import gql from 'graphql-tag';
 import React from 'react';
 import { Button, Form } from 'semantic-ui-react';
 import { useForm } from '../utils/hooks';
